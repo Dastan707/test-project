@@ -1,0 +1,59 @@
+body {
+    background-color: #FEF6F7;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__image{
+    position: relative;
+}
+
+.header__text{
+    position: absolute;
+    left: 60px;
+    top: 10px;
+}
+
+.header__main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.header__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-inps{
+    display: flex;
+    flex-direction: column;
+    input{
+    width: 420px;
+    height: 30px;
+    margin-top: 20px;
+    border: 1px solid #FFFF;
+    border-radius: 4px;
+    box-shadow: 1px 1px;
+    }
+}
+
+.register-check{
+    margin-top: 20px;
+}
+
+.register-btn{
+    color: white;
+    background-color: #4D2392;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    border: 1px solid #FFFF;
+    border-radius: 4px;
+    box-shadow: 1px 1px;
+}
+
